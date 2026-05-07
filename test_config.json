@@ -1,0 +1,17 @@
+{
+  "test_suite": "BMS_Voltage_Safety",
+  "version": "1.0",
+  "thresholds": {
+    "min_voltage": 2.5,
+    "max_voltage": 4.2,
+    "min_temp": -10,
+    "max_temp": 45
+  },
+  "test_cases": [
+    {"id": "TC001", "voltage": 3.7, "temperature": 25, "expected": "PASS"},
+    {"id": "TC002", "voltage": 5.1, "temperature": 25, "expected": "FAIL"},
+    {"id": "TC003", "voltage": 1.9, "temperature": 25, "expected": "FAIL"},
+    {"id": "TC004", "voltage": 3.7, "temperature": 60, "expected": "FAIL"},
+    {"id": "TC005", "voltage": 3.7, "temperature": -20, "expected": "FAIL"}
+  ]
+}
