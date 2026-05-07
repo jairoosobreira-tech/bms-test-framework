@@ -1,16 +1,3 @@
-""" import json
-
-#config de prueba cargada desde archivo
-
-config = {
-    "test_i": config["test_id"],
-    "input_voltage": actual_voltage,
-    "pass": config["Thresholds"]["min_v"] <= actual_voltage <= config["Thresholds"]["max_v"]
-}
-
-with open("report.json","w") as f:
-    json.dump(result,f,indent=2)
-return result """
 import json
 from bms import BMSCell
 
