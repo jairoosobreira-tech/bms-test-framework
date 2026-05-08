@@ -1,0 +1,121 @@
+{
+  "session_id": "BMS_REGRESSION_001",
+  "total": 15,
+  "passed": 10,
+  "failed": 5,
+  "pass_rate": 66.7,
+  "dtcs": [
+    {
+      "tc_id": "TC003",
+      "dtc": "P0A1B"
+    },
+    {
+      "tc_id": "TC005",
+      "dtc": "P0A2C"
+    },
+    {
+      "tc_id": "TC008",
+      "dtc": "P0A0D"
+    },
+    {
+      "tc_id": "TC010",
+      "dtc": "U0100"
+    },
+    {
+      "tc_id": "TC014",
+      "dtc": "P0A0E"
+    }
+  ],
+  "results": [
+    {
+      "timestamp": "2026-05-07 09:00:02",
+      "tc_id": "TC001",
+      "test_name": "CAN_COMM",
+      "status": "PASS"
+    },
+    {
+      "timestamp": "2026-05-07 09:00:03",
+      "tc_id": "TC002",
+      "test_name": "VOLTAGE_MONITOR",
+      "status": "PASS"
+    },
+    {
+      "timestamp": "2026-05-07 09:00:04",
+      "tc_id": "TC003",
+      "test_name": "OVERVOLTAGE_DETECTION",
+      "status": "FAIL"
+    },
+    {
+      "timestamp": "2026-05-07 09:00:05",
+      "tc_id": "TC004",
+      "test_name": "TEMP_MONITOR",
+      "status": "PASS"
+    },
+    {
+      "timestamp": "2026-05-07 09:00:06",
+      "tc_id": "TC005",
+      "test_name": "OVERTEMP_DETECTION",
+      "status": "FAIL"
+    },
+    {
+      "timestamp": "2026-05-07 09:00:07",
+      "tc_id": "TC006",
+      "test_name": "UDS_READ_DID",
+      "status": "PASS"
+    },
+    {
+      "timestamp": "2026-05-07 09:00:08",
+      "tc_id": "TC007",
+      "test_name": "UDS_WRITE_DID",
+      "status": "PASS"
+    },
+    {
+      "timestamp": "2026-05-07 09:00:09",
+      "tc_id": "TC008",
+      "test_name": "SOC_CALCULATION",
+      "status": "FAIL"
+    },
+    {
+      "timestamp": "2026-05-07 09:00:10",
+      "tc_id": "TC009",
+      "test_name": "CONTACTOR_CONTROL",
+      "status": "PASS"
+    },
+    {
+      "timestamp": "2026-05-07 09:00:11",
+      "tc_id": "TC010",
+      "test_name": "FOTA_UPDATE",
+      "status": "FAIL"
+    },
+    {
+      "timestamp": "2026-05-07 09:00:12",
+      "tc_id": "TC011",
+      "test_name": "CAN_STRESS",
+      "status": "PASS"
+    },
+    {
+      "timestamp": "2026-05-07 09:00:13",
+      "tc_id": "TC012",
+      "test_name": "RESET_RECOVERY",
+      "status": "PASS"
+    },
+    {
+      "timestamp": "2026-05-07 09:00:14",
+      "tc_id": "TC013",
+      "test_name": "CYBER_AUTH",
+      "status": "PASS"
+    },
+    {
+      "timestamp": "2026-05-07 09:00:15",
+      "tc_id": "TC014",
+      "test_name": "UNDERVOLTAGE_DETECTION",
+      "status": "FAIL"
+    },
+    {
+      "timestamp": "2026-05-07 09:00:16",
+      "tc_id": "TC015",
+      "test_name": "THERMAL_RUNAWAY",
+      "status": "PASS"
+    }
+  ]
+}
